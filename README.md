@@ -1,7 +1,7 @@
 # WhereAreU
 Get GeoJSON data from OpenStreetMap by coordinates easily!
 
-Lirbaris that I used:  </br>
+Libraries that I used:  </br>
 https://tyrasd.github.io/osmtogeojson/ </br>
 https://github.com/axios/axios </br>
 https://mui.com/ </br>
