@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# WhereAreU
+Get GeoJSON data from OpenStreetMap by coordinates easily!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lirbaris that I used:  </br>
+https://tyrasd.github.io/osmtogeojson/ </br>
+https://github.com/axios/axios </br>
+https://mui.com/ </br>
+https://github.com/testing-library </br>
+https://github.com/AndrewRedican/react-json-editor-ajrm  </br>
+https://testing-playground.com/  </br>
+https://axios-http.com/docs/intro  </br>
+ </br>
+Docs:  </br>
+https://wiki.openstreetmap.org/wiki/API  </br>
+https://testing-library.com/docs/  </br>
+ </br>
+For testing app feel free to use Hint's data set coordinates on the page  </br>
+Also full api with coordinates of few cities  </br>
+ </br>
+London  </br>
+https://api.openstreetmap.org/api/0.6/map?bbox=-0.1593017578125,51.49805708407405,-0.14591217041015625,51.50687269909403  </br>
+Flagey  </br>
+https://api.openstreetmap.org/api/0.6/map?bbox=4.370412826538086,50.82627053184742,4.374446868896484,50.82917782833559  </br>
+Bxl  </br>
+https://api.openstreetmap.org/api/0.6/map?bbox=4.348813461303711,50.84505554556735,4.355362487792969,50.848925202043825  </br>
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
