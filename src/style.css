@@ -1,0 +1,114 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  min-width: 100%;
+}
+
+#root {
+  height: 100%;
+  min-width: 100%;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: 'red';
+}
+
+.App {
+  /* display: block; */
+  text-align: center;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.box {
+  display: flex;
+  flex: auto;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  background: #1e1e1e;
+  min-width: 100%;
+}
+
+.GeolocationBox {
+  margin: 2rem, 2rem, 2rem;
+}
+.leftBox {
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.hint {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: bisque;
+  margin-bottom: 50px;
+}
+p {
+  margin-bottom: -10px;
+  font-size: 13px;
+}
+
+.jsonField {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+.topFields {
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+.bottomFields {
+  margin-left: 10px;
+}
+
+#jsonInput-outer-box div {
+  display: none;
+}
+
+.GeoBox .topFields .css-1d3z3hw-MuiOutlinedInput-notchedOutline fieldset {
+  border-color: rgb(232 237 188);
+}
+.GeoBox {
+  min-width: 100px;
+  margin: auto;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
